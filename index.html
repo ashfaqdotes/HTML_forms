@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 8</title>
+</head>
+
+<body>
+  <h1>Assignment - 8</h1>
+  <h2>Form - 1 </h2>
+  <fieldset>
+    <table>
+      <form>
+        <tr>
+          <td colspan="1"></td>
+          <td>
+            <h1>ACCOUNT OPENING FORM</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>NOTE: <b>*</b> Fields with stars on them are important to fill up!</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" bgcolor="lightblue">Personal Details</td>
+        </tr>
+        <br>
+        <tr>
+          <td>
+            <label for="name">Name*</label>
+          </td>
+          <td>
+            <input type="text" id="name" name="name" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="father">Name of (Father/Guardian)*</label>
+          </td>
+          <td>
+            <input type="text" id="father" name="father" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dob">Date of Birth* (dd-mm-yyyy)</label>
+          </td>
+          <td>
+            <input type="date" id="dob" name="dob" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender*</label>
+          </td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="nationality">Nationality</label>
+          </td>
+          <td>
+            <input type="text" id="nationality" name="nationality">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="account">Account Type*</label>
+          </td>
+          <td>
+            <input type="radio" id="savings" name="account" value="savings" required>
+            <label for="savings">Savings</label>
+            <input type="radio" id="fixed" name="account" value="fixed" required>
+            <label for="fixed">Fixed</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pre">Preference</label>
+          </td>
+          <td>
+            <input type="checkbox" id="internet" name="pre" value="internet">
+            <label for="internet">Internet Banking</label>
+            <input type="checkbox" id="mobile" name="pre" value="mobile">
+            <label for="mobile">Mobile Banking</label>
+            <input type="checkbox" id="sms" name="pre" value="sms">
+            <label for="sms">SMS alerts</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea name="address" id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="country">Country*</label>
+          </td>
+          <td>
+            <select id="country" name="country" required>
+              <option disabled selected>Please select...</option>
+              <option value="pk">Pakistan</option>
+              <option value="us">United States</option>
+              <option value="afg">Afghanistan</option>
+              <option value="in">India</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="zip">Zip Code*</label>
+          </td>
+          <td>
+            <input type="text" id="zip" name="zip" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone">Phone*</label>
+          </td>
+          <td>
+            <input type="tel" id="phone" name="phone" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email*</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password (6-8 characters)*</label>
+          </td>
+          <td>
+            <input type="password" id="password" name="password" minlength="6" maxlength="8" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="verify">Verify Password*</label>
+          </td>
+          <td>
+            <input type="password" id="verify" name="verify" required>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <!-- Submit and clear button -->
+            <input type="submit" value="SEND">
+            <input type="reset" value="CLEAR">
+          </td>
+        </tr>
+      </form>
+    </table>
+  </fieldset>
+
+  <br>
+
+  <hr>
+
+  <br>
+  <h2>Form - 2 </h2>
+  <form>
+    <fieldset>
+      <legend>The First Section</legend>
+      <fieldset>
+        <legend>First Subsection</legend>
+        <label for="field1">field1</label>
+        <input type="text" id="field1" name="field1">
+      </fieldset>
+      <br>
+      <label for="field2">field1</label>
+      <input type="text" id="field2" name="field2">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Section II</legend>
+      <fieldset>
+        <legend>Section II-A</legend>
+        <label for="field3">field1</label>
+        <input type="text" id="field3" name="field3">
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Section II-B</legend>
+        <label for="field4">field1</label>
+        <input type="text" id="field4" name="field4">
+      </fieldset>
+    </fieldset>
+
+    <br>
+
+    <input type="button" value="Go! Go! Go!">
+  </form>
+
+  <br>
+
+  <hr>
+
+  <br>
+  <h2>Form - 3 </h2>
+  <form>
+    <fieldset>
+      <legend>Login details</legend>
+      <br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"> <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"> <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"> <br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+
+      <legend>Your feedback</legend>
+      <p>
+        Please check all the emotions that apply to you:
+      </p>
+      <!-- Options - Checkboxes -->
+      <input type="checkbox" id="angry" name="emotion" value="angry">
+      <label for="angry">Angry</label> <br>
+      <input type="checkbox" id="sad" name="emotion" value="sad">
+      <label for="sad">Sad</label> <br>
+      <input type="checkbox" id="happy" name="emotion" value="happy">
+      <label for="happy">Happy</label> <br>
+      <input type="checkbox" id="ambivalent" name="emotion" value="ambivalent">
+      <label for="ambivalent">Ambivalent</label>
+      <p>
+        How satisfied were you with our service?
+      </p>
+      <!-- Options - Radio Buttons -->
+      <input type="radio" id="sat_1" name="satisfaction" value="very_satisfied">
+      <label for="sat_1">Very satisfied</label>
+      <input type="radio" id="sat_2" name="satisfaction" value="satisfy">
+      <label for="sat_2">Satisfied</label>
+      <input type="radio" id="sat_3" name="satisfaction" value="average">
+      <label for="sat_3">Average</label>
+    </fieldset>
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+  </form>
+
+  <br>
+
+  <hr>
+
+  <br>
+  <h2>Form - 4 </h2>
+  <fieldset>
+    <table bgcolor="lightsteelblue">
+      <form
+        action="https://i0.wp.com/madhuanbalagan.com/wp-content/uploads/2018/08/ThankYou.jpg?resize=300%2C138&ssl=1">
+        <tr>
+          <td>FIRST NAME</td>
+          <td><input id="first_name" type="text" max="30" required>
+            (max 30 characters a-z and A-Z) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            LAST NAME
+          </td>
+          <td>
+            <input type="text" max="30" required>
+            (max 30 characters a-z and A-Z) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>DATE OF BIRTH</td>
+          <td>
+            <input type="date" required> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>EMAIL ID</td>
+          <td><input type="email" id="email" required> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>MOBILE NUMBER</td>
+          <td>
+            <input type="text" max="10" required>
+            (10 digit number) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>GENDER</td>
+          <td>
+            <input type="radio" name="gender" id="Male" required>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female" required>Female</label> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>ADDRESS</td>
+          <td colspan="50">
+            <textarea name="Address" id="" cols="30" rows="3" required></textarea> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>CITY</td>
+          <td><input type="text" max="30" required> (max 30 characters a-z and A-Z) <br> <br></td>
+        </tr>
+        <tr>
+          <td>PIN CODE</td>
+          <td><input type="text" max="6" required>(6 digit number) <br> <br></td>
+        </tr>
+        <tr>
+          <td>STATE</td>
+          <td><input required type="text" max="30"> (max 30 characters a-z and A-Z) <br> <br></td>
+        </tr>
+        <tr>
+          <td>COUNTRY</td>
+          <td><select required name="" id="">
+              <option disabled selected>Please select</option>
+              <option>Pakistan</option>
+              <option>India</option>
+              <option>Russia</option>
+              <option>USA</option>
+              <option>Japan</option>
+              <option>UK</option>
+            </select> <br> <br>
+          </td>
+        </tr>
+        <td>HOBBIES</td>
+        <td colspan="10">
+          <label for="Drawing">Drawing</label>
+          <input type="checkbox" id="Drawing">
+          <label for="Singing">Singing</label>
+          <input type="checkbox" id="Singing">
+          <label for="Dancing">Dancing</label>
+          <input type="checkbox" id="Dancing">
+          <label for="Sketching">Sketching</label>
+          <input type="checkbox" id="Sketching"> <br> <br>
+          <label for="Others">Others</label><input type="checkbox" id="Others"> <input type="text"> <br> <br>
+        </td>
+        </tr>
+        <tr>
+          <td>QUALIFICATION</td>
+          <td colspan="50">
+            <fieldset>
+              <table>
+                <tr>
+                  <th>SI.NO.</th>
+                  <th>Examination</th>
+                  <th>Board</th>
+                  <th>Percentage</th>
+                  <th>Year of Passing</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td>Class XII</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>Graduation</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>4</td>
+                  <td>Masters</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <th colspan="2"></th>
+                  <th>(10 char max)</th>
+                  <th>(upto 2 decimal)</th>
+                </tr>
+              </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>COURSES APPLIED FOR</td>
+          <td colspan="10">
+            <input type="radio" id="BCA" name="course">
+            <label for="BCA">BCA</label>
+            <input type="radio" id="BCom" name="course">
+            <label for="BCom">B.Com</label>
+            <input type="radio" id="BSc" name="course">
+            <label for="BSc">B.Sc</label>
+            <input type="radio" id="BA" name="course">
+            <label for="BA">B.A</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </fieldset>
+
+
+</body>
+
+</html>

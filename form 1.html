@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 1</title>
+</head>
+
+<body>
+  <fieldset>
+    <table>
+      <form>
+        <tr>
+          <td colspan="1"></td>
+          <td>
+            <h1>ACCOUNT OPENING FORM</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>NOTE: <b>*</b> Fields with stars on them are important to fill up!</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" bgcolor="lightblue">Personal Details</td>
+        </tr>
+        <br>
+        <tr>
+          <td>
+            <label for="name">Name*</label>
+          </td>
+          <td>
+            <input type="text" id="name" name="name" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="father">Name of (Father/Guardian)*</label>
+          </td>
+          <td>
+            <input type="text" id="father" name="father" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dob">Date of Birth* (dd-mm-yyyy)</label>
+          </td>
+          <td>
+            <input type="date" id="dob" name="dob" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender*</label>
+          </td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="nationality">Nationality</label>
+          </td>
+          <td>
+            <input type="text" id="nationality" name="nationality">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="account">Account Type*</label>
+          </td>
+          <td>
+            <input type="radio" id="savings" name="account" value="savings" required>
+            <label for="savings">Savings</label>
+            <input type="radio" id="fixed" name="account" value="fixed" required>
+            <label for="fixed">Fixed</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pre">Preference</label>
+          </td>
+          <td>
+            <input type="checkbox" id="internet" name="pre" value="internet">
+            <label for="internet">Internet Banking</label>
+            <input type="checkbox" id="mobile" name="pre" value="mobile">
+            <label for="mobile">Mobile Banking</label>
+            <input type="checkbox" id="sms" name="pre" value="sms">
+            <label for="sms">SMS alerts</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea name="address" id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="country">Country*</label>
+          </td>
+          <td>
+            <select id="country" name="country" required>
+              <option disabled selected>Please select...</option>
+              <option value="pk">Pakistan</option>
+              <option value="us">United States</option>
+              <option value="afg">Afghanistan</option>
+              <option value="in">India</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="zip">Zip Code*</label>
+          </td>
+          <td>
+            <input type="text" id="zip" name="zip" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone">Phone*</label>
+          </td>
+          <td>
+            <input type="tel" id="phone" name="phone" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email*</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password (6-8 characters)*</label>
+          </td>
+          <td>
+            <input type="password" id="password" name="password" minlength="6" maxlength="8" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="verify">Verify Password*</label>
+          </td>
+          <td>
+            <input type="password" id="verify" name="verify" required>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <!-- Submit and clear button -->
+            <input type="submit" value="SEND">
+            <input type="reset" value="CLEAR">
+          </td>
+        </tr>
+      </form>
+    </table>
+  </fieldset>
+
+
+</body>
+
+</html>

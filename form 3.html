@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 3</title>
+</head>
+
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Login details</legend>
+      <br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"> <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"> <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"> <br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+
+      <legend>Your feedback</legend>
+      <p>
+        Please check all the emotions that apply to you:
+      </p>
+      <!-- Options - Checkboxes -->
+      <input type="checkbox" id="angry" name="emotion" value="angry">
+      <label for="angry">Angry</label> <br>
+      <input type="checkbox" id="sad" name="emotion" value="sad">
+      <label for="sad">Sad</label> <br>
+      <input type="checkbox" id="happy" name="emotion" value="happy">
+      <label for="happy">Happy</label> <br>
+      <input type="checkbox" id="ambivalent" name="emotion" value="ambivalent">
+      <label for="ambivalent">Ambivalent</label>
+      <p>
+        How satisfied were you with our service?
+      </p>
+      <!-- Options - Radio Buttons -->
+      <input type="radio" id="sat_1" name="satisfaction" value="very_satisfied">
+      <label for="sat_1">Very satisfied</label>
+      <input type="radio" id="sat_2" name="satisfaction" value="satisfy">
+      <label for="sat_2">Satisfied</label>
+      <input type="radio" id="sat_3" name="satisfaction" value="average">
+      <label for="sat_3">Average</label>
+    </fieldset>
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+  </form>
+
+
+</body>
+
+</html>

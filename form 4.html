@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 4</title>
+</head>
+
+<body>
+  <fieldset>
+    <table bgcolor="lightsteelblue">
+      <form
+        action="https://i0.wp.com/madhuanbalagan.com/wp-content/uploads/2018/08/ThankYou.jpg?resize=300%2C138&ssl=1">
+        <tr>
+          <td>FIRST NAME</td>
+          <td><input id="first_name" type="text" max="30" required>
+            (max 30 characters a-z and A-Z) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            LAST NAME
+          </td>
+          <td>
+            <input type="text" max="30" required>
+            (max 30 characters a-z and A-Z) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>DATE OF BIRTH</td>
+          <td>
+            <input type="date" required> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>EMAIL ID</td>
+          <td><input type="email" id="email" required> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>MOBILE NUMBER</td>
+          <td>
+            <input type="text" max="10" required>
+            (10 digit number) <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>GENDER</td>
+          <td>
+            <input type="radio" name="gender" id="Male" required>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female" required>Female</label> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>ADDRESS</td>
+          <td colspan="50">
+            <textarea name="Address" id="" cols="30" rows="3" required></textarea> <br> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>CITY</td>
+          <td><input type="text" max="30" required> (max 30 characters a-z and A-Z) <br> <br></td>
+        </tr>
+        <tr>
+          <td>PIN CODE</td>
+          <td><input type="text" max="6" required>(6 digit number) <br> <br></td>
+        </tr>
+        <tr>
+          <td>STATE</td>
+          <td><input required type="text" max="30"> (max 30 characters a-z and A-Z) <br> <br></td>
+        </tr>
+        <tr>
+          <td>COUNTRY</td>
+          <td><select required name="" id="">
+              <option disabled selected>Please select</option>
+              <option>Pakistan</option>
+              <option>India</option>
+              <option>Russia</option>
+              <option>USA</option>
+              <option>Japan</option>
+              <option>UK</option>
+            </select> <br> <br>
+          </td>
+        </tr>
+        <td>HOBBIES</td>
+        <td colspan="10">
+          <label for="Drawing">Drawing</label>
+          <input type="checkbox" id="Drawing">
+          <label for="Singing">Singing</label>
+          <input type="checkbox" id="Singing">
+          <label for="Dancing">Dancing</label>
+          <input type="checkbox" id="Dancing">
+          <label for="Sketching">Sketching</label>
+          <input type="checkbox" id="Sketching"> <br> <br>
+          <label for="Others">Others</label><input type="checkbox" id="Others"> <input type="text"> <br> <br>
+        </td>
+        </tr>
+        <tr>
+          <td>QUALIFICATION</td>
+          <td colspan="50">
+            <fieldset>
+              <table>
+                <tr>
+                  <th>SI.NO.</th>
+                  <th>Examination</th>
+                  <th>Board</th>
+                  <th>Percentage</th>
+                  <th>Year of Passing</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td>Class XII</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>Graduation</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <td>4</td>
+                  <td>Masters</td>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                  <th><input type="text"></th>
+                </tr>
+
+                <tr>
+                  <th colspan="2"></th>
+                  <th>(10 char max)</th>
+                  <th>(upto 2 decimal)</th>
+                </tr>
+              </table>
+          </td>
+  </tr>
+
+  <tr>
+    <td>COURSES APPLIED FOR</td>
+    <td colspan="10">
+      <input type="radio" id="BCA" name="course">
+      <label for="BCA">BCA</label>
+      <input type="radio" id="BCom" name="course">
+      <label for="BCom">B.Com</label>
+      <input type="radio" id="BSc" name="course">
+      <label for="BSc">B.Sc</label>
+      <input type="radio" id="BA" name="course">
+      <label for="BA">B.A</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </td>
+  </tr>
+  </form>
+  </table>
+  </fieldset>
+</body>
+
+</html>
